@@ -23,3 +23,4 @@ int funcao(x,y){
 }\\return irá retornar valor 0 caso a função esteja ok.
 Se afunção for do tipo void, não é necessário retornar nenhum valor.
 site:https://pt.wikibooks.org/wiki/Programar_em_C/Tipos_de_dados
+

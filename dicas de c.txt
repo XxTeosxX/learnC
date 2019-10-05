@@ -1,0 +1,25 @@
+int: armazena números interios;usa 4 bytes.
+Ex:
+    int x;
+char: armazena caracteres individuais do padrão ASCII; usa 1 byte.
+    char y;
+float: armazena valores reais(10^-38 a 10^38); usa 6 bytes.
+    float x;
+double: para reais entre (aproximadamente) 10^-4932e 10^4932, utiliza 8 bytes, precisão de 15 dígitos.
+bool: para indicar true (verdadeiro) ou false (falso), utiliza 2 bytes; Presente apenas no padrão C99 em diante.
+
+Para criar uma função, tem que criar antes da função main{};
+Toda função criada deve ser especificada:
+[tipo da função] [nome da fução] (variáveis de entrada, se hover)
+{
+    função;
+};
+
+Ex.:
+int funcao(x,y){
+    int x=10;
+    int y=3;
+    return 0;
+}\\return irá retornar valor 0 caso a função esteja ok.
+Se afunção for do tipo void, não é necessário retornar nenhum valor.
+site:https://pt.wikibooks.org/wiki/Programar_em_C/Tipos_de_dados
